@@ -14,12 +14,16 @@
     let
       lib = nixpkgs.lib;
       system = "x86_64-linux";
-      pkgs = import nixpkgs { inherit system; }; 
+      pkgs = import nixpkgs { inherit system; };
+      allowUnfree = {nixpkgs.config.allowUnfree = true;};
     in {
       homeConfigurations = {
         amourlive = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
-          modules = [ ./home.nix ];
+          modules = [ 
+            ./home.nix
+            allowUnfree
+          ];
         };
       };
     };

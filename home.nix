@@ -2,7 +2,13 @@
 {
   home = {
     packages = with pkgs; [
-      hello
+      telegram-desktop
+      firefox-devedition-unwrapped
+      jetbrains-toolbox
+      tealdeer
+      eza
+      dust
+      bat
     ];
 
     username = "amourlive";
