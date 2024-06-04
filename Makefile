@@ -3,3 +3,7 @@
 .PHONY: update
 update:
 	home-manager switch --flake .#amourlive --option eval-cache false
+
+.PHONY: clean
+clean:
+	nix-collect-garbage -d
