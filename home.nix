@@ -3,8 +3,8 @@
   home = {
     packages = with pkgs; [
       telegram-desktop
-      firefox-devedition-unwrapped
       jetbrains-toolbox
+      foot
       tealdeer
       eza
       dust
