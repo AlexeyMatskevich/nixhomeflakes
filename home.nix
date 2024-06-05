@@ -9,6 +9,7 @@
       eza
       dust
       bat
+      gh
     ];
 
     username = "amourlive";
