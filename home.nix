@@ -5,6 +5,7 @@
       telegram-desktop
       jetbrains-toolbox
       foot
+      devbox
       tealdeer
       eza
       dust
