@@ -11,6 +11,7 @@
       dust
       bat
       gh
+      zoom
     ];
 
     username = "amourlive";
