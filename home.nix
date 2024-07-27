@@ -12,6 +12,7 @@
       bat
       gh
       zoom
+      nodejs_22
     ];
 
     username = "amourlive";
