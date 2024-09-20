@@ -3,7 +3,6 @@
   home = {
     packages = with pkgs; [
       telegram-desktop
-      jetbrains-toolbox
       foot
       devbox
       tealdeer
@@ -13,6 +12,7 @@
       gh
       zoom
       nodejs_22
+      ruby_3_3
     ];
 
     username = "amourlive";
