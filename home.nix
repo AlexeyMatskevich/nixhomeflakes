@@ -3,6 +3,7 @@
   home = {
     packages = with pkgs; [
       telegram-desktop
+      slack
       jetbrains.ruby-mine
       jetbrains.rust-rover
       foot
