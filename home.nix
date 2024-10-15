@@ -6,6 +6,7 @@
       slack
       jetbrains.ruby-mine
       jetbrains.rust-rover
+      zed-editor
       foot
       devbox
       tealdeer
