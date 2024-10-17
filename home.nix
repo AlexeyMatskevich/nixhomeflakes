@@ -10,6 +10,7 @@
       foot
       devbox
       tealdeer
+      carapace
       eza
       dust
       bat
