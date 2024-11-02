@@ -4,6 +4,7 @@
     packages = with pkgs; [
       telegram-desktop
       slack
+      protonvpn-gui
       jetbrains.ruby-mine
       jetbrains.rust-rover
       zed-editor
